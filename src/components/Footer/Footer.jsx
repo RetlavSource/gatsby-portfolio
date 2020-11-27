@@ -38,6 +38,12 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
+          © {new Date().getFullYear()} - Modified, adapted and improved by and to{' '}
+          <a href="https://github.com/RetlavSource" target="_blank" rel="noopener noreferrer">
+            Valter Cardoso
+          </a>
+        </p>
+        <p className="footer__text">
           © {new Date().getFullYear()} - Template developed by{' '}
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
             Jacobo Martínez
