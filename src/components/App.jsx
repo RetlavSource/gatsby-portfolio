@@ -12,6 +12,7 @@ import {
   aboutData,
   projectsData,
   learningData,
+  certificatesData,
   contactData,
   footerData,
 } from '../mock/data';
@@ -21,6 +22,7 @@ function App() {
   const [about, setAbout] = useState({});
   const [projects, setProjects] = useState([]);
   const [learning, setLearning] = useState([]);
+  const [certificates, setCertificates] = useState([]);
   const [contact, setContact] = useState({});
   const [footer, setFooter] = useState({});
 
@@ -29,12 +31,13 @@ function App() {
     setAbout({ ...aboutData });
     setProjects([...projectsData]);
     setLearning([...learningData]);
+    setCertificates([...certificatesData]);
     setContact({ ...contactData });
     setFooter({ ...footerData });
   }, []);
 
   return (
-    <PortfolioProvider value={{ hero, about, projects, learning, contact, footer }}>
+    <PortfolioProvider value={{ hero, about, projects, learning, certificates, contact, footer }}>
       <Hero />
       <About />
       <Projects />

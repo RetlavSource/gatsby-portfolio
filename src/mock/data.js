@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hello, my name is',
   name: 'Valter Cardoso',
-  subtitle: 'I am a future Software Engineer and Web Designer.',
+  subtitle: 'I am a future Informatics Engineer and Web Designer.',
   cta: 'Know More',
 };
 
@@ -35,7 +35,7 @@ export const projectsData = [
     title: '',
     info: '',
     info2: '',
-    url: '',
+    url: '#!',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
@@ -44,21 +44,12 @@ export const projectsData = [
     title: '',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
+    url: '#!',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
-// PROJECTS DATA
+// LEARNING DATA
 export const learningData = [
   {
     id: nanoid(),
@@ -66,7 +57,7 @@ export const learningData = [
     title: '',
     info: '',
     info2: '',
-    url: '',
+    url: '#!',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
@@ -75,7 +66,20 @@ export const learningData = [
     title: '',
     info: '',
     info2: '',
-    url: '',
+    url: '#!',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+];
+
+// CERTIFICATES DATA
+export const certificatesData = [
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: '',
+    info: '',
+    info2: '',
+    url: '#!',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
@@ -84,7 +88,7 @@ export const learningData = [
     title: '',
     info: '',
     info2: '',
-    url: '',
+    url: '#!',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
