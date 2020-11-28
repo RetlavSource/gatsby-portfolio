@@ -31,21 +31,68 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '#!',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'projects/chat_app.jpg',
+    title: 'Chat App',
+    info:
+      'It is a browser chat app, with chats separated by rooms, without cookies, private and with no message/user tracking after exiting the browser/tab.',
+    info2:
+      'Uses NodeJs with express framework, web sockets with Socket.io, mustache template and moment to format timestamps.',
+    url: 'https://mrbitwise-chat-app.herokuapp.com',
+    repo: 'https://github.com/RetlavSource/NodeJs-Socket.io-ChatApp', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '#!',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'projects/webp_app.jpg',
+    title: 'WebP Converter',
+    info:
+      'This was a project for the Multimedia II subject at UFP University. It converts .jpeg, .jpg and .png formats in to .webp format.',
+    info2:
+      'Uses NodeJs with express framework, imagemin to convert, handlebars template engine and multer.',
+    url: '',
+    repo: 'https://github.com/RetlavSource/WebP_Converter', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'projects/mygit_app.jpg',
+    title: 'Git info bash',
+    info:
+      'This work was for fun, when i was tired to do all the times "git branch" and "git status", just to know what was untracked, modified, etc, or even to know if i had some work stashed (real problems can happen if you forget your stashed work 😬 ...).',
+    info2:
+      'Uses shell scripting, and is made for "bash" terminals. Tested in Linux Ubuntu and macOS Big Sur.',
+    url: '',
+    repo: 'https://github.com/RetlavSource/MyGit-Autocomplete', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'projects/weather_app.jpg',
+    title: 'Weather App Check',
+    info: 'Simple app to check the weather in a given city.',
+    info2:
+      'Made with NodeJs with express framework, handlebars as template engine. Uses "weatherstack" and "mapbox" api\'s.',
+    url: 'http://mrbitwise-weather-app.herokuapp.com',
+    repo: 'https://github.com/RetlavSource/NodeJs-Weather-App', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'projects/task_app.jpg',
+    title: 'Task Manager API',
+    info:
+      'This is an API for creating, registering and login users, that can add tasks and manage them, and also send emails upon registering and deleting account. It communicates with any frontend application using JSON requests/responses.',
+    info2:
+      'Made with NodeJs with express framework, MongoDB(dev), MongoDB Atlas(prod), JWT(JSON Web Token) and SendGrid.',
+    url: '',
+    repo: 'https://github.com/RetlavSource/NodeJs-Task-Manager', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'projects/control_app.jpg',
+    title: 'Client Control Management',
+    info:
+      'Simple app to count the number of clients inside a shopping center, controlling the flow of clients. Used by security to count the clients in real time.',
+    info2:
+      'App was developed with Angular@9, web sockets and google maps for presenting the shoppings in their location, with the number of people in each place. I has a manager page for admin users.',
+    url: '',
+    repo: 'https://github.com/JsBraz/ProjetoAppWeb', // if no repo, the button will not show up
   },
 ];
 

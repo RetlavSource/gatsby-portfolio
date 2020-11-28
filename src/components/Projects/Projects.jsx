@@ -90,8 +90,8 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || '#!'}
-                        target="_blank"
+                        href={url || repo || '#!'}
+                        target={url || repo ? '_blank' : ''}
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >
@@ -179,8 +179,8 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || '#!'}
-                        target="_blank"
+                        href={url || repo || '#!'}
+                        target={url || repo ? '_blank' : ''}
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >
@@ -268,8 +268,8 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || '#!'}
-                        target="_blank"
+                        href={url || repo || '#!'}
+                        target={url || repo ? '_blank' : ''}
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >
