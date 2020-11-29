@@ -94,6 +94,28 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/JsBraz/ProjetoAppWeb', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'projects/php_app.jpg',
+    title: 'Videogame Renting',
+    info:
+      'Simple web page for displaying and rent videogames. It has login, register and cart functionality.',
+    info2:
+      'It uses different databases for store the data, like PostgreSQL and MySql. It uses php as the main programming language, and is as a full-stack implementation using the php framework "Laravel".',
+    url: '',
+    repo: 'https://github.com/RetlavSource/Project_LabPro/tree/v1.0', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'projects/spring_app.jpg',
+    title: 'Appointment API',
+    info:
+      'Project for the subject "Software Engineering", that implements a web service for making appointments/attendances for the different subjects on the University, as well as the location. Complements the first part of the web service, linked as "ESOF_Project" in the repository of this project.',
+    info2:
+      'Is a REST API service implemented in java programming language, with Spring Boot Framework, Lombok and Hibernate, returning a JSON string as the response.',
+    url: '',
+    repo: 'https://github.com/RetlavSource/ESOF_Project_2', // if no repo, the button will not show up
+  },
 ];
 
 // LEARNING DATA
