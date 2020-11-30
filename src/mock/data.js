@@ -21,10 +21,10 @@ export const aboutData = {
   paragraphOne:
     'I am a student of Informatics Engineering at Fernando Pessoa University in Portugal, at the last year of the degree course, missing only one subject to complete. Since only misses a subject to complete the degree, i am currently studying as an external student, in a master degree of Mobile and Ubiquitous Computing at the same University.',
   paragraphTwo:
-    'I like to learn new programming languages, and self learning is a path that completes my learning technics. I am always excited for new projects and experiences ...',
+    'I like to learn new programming languages, and self learning is a path that completes my knowledge. I am always excited for new projects and experiences ...',
   paragraphThree:
     'Nothing is impossible if it is possible to be done ... ... if I do not know, I will study and do it!',
-  resume: 'https://europa.eu/!Fm37jj', // if no resume, the button will not show up
+  resume: 'https://europa.eu/!Qh64Tj', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
