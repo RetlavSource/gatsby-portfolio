@@ -23,6 +23,12 @@ const Projects = () => {
     }
   }, []);
 
+  const handleImageSrc = (event) => {
+    // console.log(event.target.src);
+    // window.location.href = event.target.src; // reloads in same page
+    window.open(event.target.src, '_blank'); // opens new tab
+  };
+
   const sectionBreak = [
     <Divider key="1" thick="1" bottomSpace="-3" percentWidth="30" />,
     <Divider key="2" thick="2" bottomSpace="-3" percentWidth="100" />,
@@ -124,7 +130,7 @@ const Projects = () => {
 
           <Title title="Certificates" />
           {certificates.map((certificate) => {
-            const { title, info, info2, url, repo, img, id } = certificate;
+            const { title, info, img, id } = certificate;
 
             return (
               <Row key={id}>
@@ -137,35 +143,15 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
+                      <h3 className="project-wrapper__text-title">
+                        {title || 'Certificate Title'}
+                      </h3>
                       <div>
                         <p>
                           {info ||
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
-                        <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      {url && (
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cta-btn cta-btn--hero"
-                          href={url}
-                        >
-                          See Live
-                        </a>
-                      )}
-
-                      {repo && (
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
-                          href={repo}
-                        >
-                          Source Code
-                        </a>
-                      )}
                     </div>
                   </Fade>
                 </Col>
@@ -179,8 +165,8 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || repo || '#!'}
-                        target={url || repo ? '_blank' : ''}
+                        href="#!"
+                        onClick={(event) => handleImageSrc(event)}
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >

@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'valter_profile.jpg',
   paragraphOne:
-    'I am a student of Software Engineering at Fernando Pessoa University in Portugal, at the last year of the degree course, missing only one subject to complete. Since only misses a subject to complete the degree, i am currently studying as an external student, in a master degree of Mobile and Ubiquitous Computing at the same University.',
+    'I am a student of Informatics Engineering at Fernando Pessoa University in Portugal, at the last year of the degree course, missing only one subject to complete. Since only misses a subject to complete the degree, i am currently studying as an external student, in a master degree of Mobile and Ubiquitous Computing at the same University.',
   paragraphTwo:
     'I like to learn new programming languages, and self learning is a path that completes my learning technics. I am always excited for new projects and experiences ...',
   paragraphThree:
@@ -122,29 +122,86 @@ export const projectsData = [
 export const certificatesData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '#!',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'certificates/icaart_course.jpg',
+    title: 'ICAART 2017',
+    info:
+      'Official Certificate of attended the ICAART 2017 - 9th International Conference on Agents and Artificial Intelligence.',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '#!',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'certificates/ccp_course.jpg',
+    title: 'Training of trainers course',
+    info:
+      'Certificate for teaching and lecturing different subjects. Upon presenting a training subject, I have competences to teach and emit certificates of the learning themes and areas.',
+  },
+  {
+    id: nanoid(),
+    img: 'certificates/cad_course.jpg',
+    title: 'CAD Course',
+    info:
+      'Diploma of the Computer Assisted Design. Subjects where Autocad, Autocad 3D, 3D Studio Viz and Internet.',
+  },
+  {
+    id: nanoid(),
+    img: 'certificates/javascript2_course.jpg',
+    title: 'Javascript Tutorial Course',
+    info: 'A Javascript Tutorial Course on online learning platform of Solotearn.',
+  },
+  {
+    id: nanoid(),
+    img: 'certificates/javascript_course.jpg',
+    title: 'Javascript Course',
+    info: 'A Complete Javascript Course on online learning platform of Udemy.',
+  },
+  {
+    id: nanoid(),
+    img: 'certificates/nodejs_course.jpg',
+    title: 'Node.Js Course',
+    info: 'A Complete Node.Js Course on online learning platform of Udemy.',
+  },
+  {
+    id: nanoid(),
+    img: 'certificates/css_course.jpg',
+    title: 'CSS Fundamentals Course',
+    info: 'A CSS Fundamentals Course on online learning platform of Solotearn.',
+  },
+  {
+    id: nanoid(),
+    img: 'certificates/html_course.jpg',
+    title: 'HTML Fundamentals Course',
+    info: 'A HTML Fundamentals Course on online learning platform of Solotearn.',
+  },
+  {
+    id: nanoid(),
+    img: 'certificates/cplusplus_course.jpg',
+    title: 'C++ Tutorial Course',
+    info: 'A C++ Tutorial Course on online learning platform of Solotearn.',
+  },
+  {
+    id: nanoid(),
+    img: 'certificates/java_course.jpg',
+    title: 'Java Tutorial Course',
+    info: 'A Java Tutorial Course on online learning platform of Solotearn.',
+  },
+  {
+    id: nanoid(),
+    img: 'certificates/php_course.jpg',
+    title: 'PHP Tutorial Course',
+    info: 'A PHP Tutorial Course on online learning platform of Solotearn.',
+  },
+  {
+    id: nanoid(),
+    img: 'certificates/sql_course.jpg',
+    title: 'SQL Fundamentals Course',
+    info: 'A SQL Fundamentals Course on online learning platform of Solotearn.',
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Interested in my help and skills? Awesome!',
+  btn: 'Email Me',
+  email: 'valterinfomundo@gmail.com',
 };
 
 // FOOTER DATA
@@ -152,23 +209,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://github.com/RetlavSource',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/RetlavSource',
     },
   ],
 };
