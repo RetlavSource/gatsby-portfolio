@@ -45,10 +45,6 @@ $ npm start
 ✅ One Page Layout built with React\
 ✅ Styled with Bootstrap v4.3 + Custom SCSS\
 ✅ Fully Responsive\
-✅ Configurable color scheme\
-✅ Image optimization with Gatsby\
-✅ Easy site customization\
-✅ Well organized documentation
 
 ## Technologies used 🛠️
 
@@ -57,6 +53,11 @@ $ npm start
 - [React](https://es.reactjs.org/) - Front-End JavaScript library
 - [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-End UI library
 - [Sass](https://sass-lang.com/documentation) - CSS extension language
+
+## Authors
+
+- **Valter Cardoso** - [https://github.com/RetlavSource](https://github.com/RetlavSource)
+- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
 
 ## Status 📈
 
@@ -68,4 +69,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments 🎁
 
-This project is part of a starter project made in Gatsby by [Jacobo Martinez](https://github.com/cobidev), and modified by ME, so expect some variations, modifications and some additions to the code.
+This project is part of a starter project made in Gatsby by [Jacobo Martinez](https://github.com/cobidev), and modified by me, [Valter Cardoso](https://github.com/RetlavSource), so expect some variations, modifications and some additions to the code.
