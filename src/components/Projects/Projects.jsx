@@ -60,6 +60,9 @@ const Projects = () => {
                           {info ||
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
+                        <p className="mb-4">
+                          {'youtube' in project ? `Check "${project.youtube}" button below!` : ''}
+                        </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       {url && (
@@ -69,7 +72,7 @@ const Projects = () => {
                           className="cta-btn cta-btn--hero"
                           href={url}
                         >
-                          See Live
+                          {'youtube' in project ? project.youtube : 'See Live'}
                         </a>
                       )}
 

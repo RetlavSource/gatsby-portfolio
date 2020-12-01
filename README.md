@@ -4,7 +4,7 @@
 #### 🧑‍💻 This is my Portfolio Website.
 
 <h2 align="center">
-  <img src="./examples/demo.gif" alt="Gatsby Simplefolio" width="600px" />
+  <img src="/examples/demo.gif" alt="Gatsby Simplefolio" width="600px" />
   <br>
 </h2>
 

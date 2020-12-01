@@ -48,7 +48,8 @@ export const projectsData = [
       'This was a project for the Multimedia II subject at UFP University. It converts .jpeg, .jpg and .png formats in to .webp format.',
     info2:
       'Uses NodeJs with express framework, imagemin to convert, handlebars template engine and multer.',
-    url: '',
+    url: 'https://www.youtube.com/watch?v=8RkmncF3k7c',
+    youtube: 'Video Tutorial', // added by me, valter cardoso, to insert youtube videos - sets new name for the url button
     repo: 'https://github.com/RetlavSource/WebP_Converter', // if no repo, the button will not show up
   },
   {
@@ -209,8 +210,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
+      name: 'youtube',
+      url: 'https://www.youtube.com/channel/UCVR4fv-CMDxrLdSbDi8B5uw/videos',
+    },
+    {
+      id: nanoid(),
       name: 'linkedin',
-      url: 'https://github.com/RetlavSource',
+      url: 'https://www.linkedin.com/in/valternunocardoso/',
     },
     {
       id: nanoid(),
