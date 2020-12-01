@@ -4,13 +4,13 @@
 #### 🧑‍💻 This is my Portfolio Website.
 
 <h2 align="center">
-  <img src="/examples/demo.gif" alt="Gatsby Simplefolio" width="600px" />
+  <img src="./examples/demo.gif" alt="Gatsby Simplefolio" width="600px" />
   <br>
 </h2>
 
 ## View Live 🔎
 
-To view live the portfolio, **[click here](https://cobidev.com/)**.
+To view live the portfolio, **[click here]()**.
 
 ## Try Local 💻
 
