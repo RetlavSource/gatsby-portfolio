@@ -10,7 +10,7 @@
 
 ## View Live 🔎
 
-To view live the portfolio, **[click here]()**.
+To view live the portfolio, **[click here](https://valter.netlify.app/)**.
 
 ## Try Local 💻
 
@@ -61,7 +61,7 @@ $ npm start
 
 ## Status 📈
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2365af6f-820a-4fb8-83e6-69a66f686dfe/deploy-status)](https://app.netlify.com/sites/gatsby-simplefolio/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2dc320ba-2e7e-4338-b239-0d0124bdeeb9/deploy-status)](https://app.netlify.com/sites/valter/deploys)
 
 ## License 📄
 
