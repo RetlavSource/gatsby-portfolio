@@ -210,18 +210,23 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'youtube',
+      name: 'youtube-square',
       url: 'https://www.youtube.com/channel/UCVR4fv-CMDxrLdSbDi8B5uw/videos',
     },
     {
       id: nanoid(),
-      name: 'linkedin',
+      name: 'linkedin-square',
       url: 'https://www.linkedin.com/in/valternunocardoso/',
     },
     {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/RetlavSource',
+    },
+    {
+      id: nanoid(),
+      name: 'code',
+      url: 'https://github.com/RetlavSource/gatsby-portfolio',
     },
   ],
 };
