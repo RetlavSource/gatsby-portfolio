@@ -24,7 +24,7 @@ export const aboutData = {
     'I like to learn new programming languages, and self learning is a path that completes my knowledge. I am always excited for new projects and experiences ...',
   paragraphThree:
     'Nothing is impossible if it is possible to be done ... ... if I do not know, I will study and do it, the best i can!',
-  resume: 'https://europa.eu/!Qh64Tj', // if no resume, the button will not show up
+  resume: 'https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/55708c0f-eb1c-469d-8540-9aad836b89c9?view=html', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
